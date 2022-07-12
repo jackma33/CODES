@@ -1,0 +1,25 @@
+## send a message to "Saved Messages"
+bot.send_message(chat_id='me', text='Hello there, How are you??')
+
+
+## Get all the details about the recent message
+@bot.on_message(filters.all)
+async def main(bot:Client, event:Message):
+	print(event)
+
+
+## Edit sent Message
+app.start()
+m = app.send_message(976223233, "Hi!")
+app.edit_message_text(m.chat.id, m.id, 'Hello')
+app.stop()
+                     <OR>
+event.edit(text="")
+
+
+## API Methods - https://docs.pyrogram.org/api/methods/
+
+
+## Reply to a Message
+await app.send_message(event.from_user.id, "this is a reply", reply_to_message_id=event.id)
+

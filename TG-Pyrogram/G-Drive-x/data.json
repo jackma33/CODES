@@ -1,0 +1,139 @@
+{
+    "_": "Message",
+    "id": 814,
+    "from_user": {
+        "_": "User",
+        "id": 976223233,
+        "is_self": true,
+        "is_contact": true,
+        "is_mutual_contact": true,
+        "is_deleted": false,
+        "is_bot": false,
+        "is_verified": false,
+        "is_restricted": false,
+        "is_scam": false,
+        "is_fake": false,
+        "is_support": false,
+        "first_name": "NAABO",
+        "status": "UserStatus.ONLINE",
+        "next_offline_date": "2022-05-07 09:30:10",
+        "username": "naabo_329",
+        "dc_id": 5,
+        "phone_number": "*********",
+        "photo": {
+            "_": "ChatPhoto",
+            "small_file_id": "AQADBQADr6cxGwH8LzoAEAIAAwH8LzoABPZhwlG1feN6AAQeBA",
+            "small_photo_unique_id": "AgADr6cxGwH8Lzo",
+            "big_file_id": "AQADBQADr6cxGwH8LzoAEAMAAwH8LzoABPZhwlG1feN6AAQeBA",  
+            "big_photo_unique_id": "AgADr6cxGwH8Lzo"
+        }
+    },
+    "date": "2022-05-07 09:25:29",
+    "chat": {
+        "_": "Chat",
+        "id": -1001704658427,
+        "type": "ChatType.SUPERGROUP",
+        "is_verified": false,
+        "is_restricted": false,
+        "is_creator": true,
+        "is_scam": false,
+        "is_fake": false,
+        "title": "NAABO",
+        "username": "NAABOGroup",
+        "photo": {
+            "_": "ChatPhoto",
+            "small_file_id": "AQADBQADa7ExG1BOcVcAEAIAAwXqv8UW____kZLlAQ5KAAH9AAQeBA",
+            "small_photo_unique_id": "AgADa7ExG1BOcVc",
+            "big_file_id": "AQADBQADa7ExG1BOcVcAEAMAAwXqv8UW____kZLlAQ5KAAH9AAQeBA",
+            "big_photo_unique_id": "AgADa7ExG1BOcVc"
+        },
+        "dc_id": 5,
+        "has_protected_content": false,
+        "permissions": {
+            "_": "ChatPermissions",
+            "can_send_messages": true,
+            "can_send_media_messages": true,
+            "can_send_other_messages": true,
+            "can_send_polls": true,
+            "can_add_web_page_previews": true,
+            "can_change_info": false,
+            "can_invite_users": true,
+            "can_pin_messages": false
+        }
+    },
+    "forward_from_chat": {
+        "_": "Chat",
+        "id": -1001675494526,
+        "type": "ChatType.CHANNEL",
+        "is_verified": false,
+        "is_restricted": false,
+        "is_creator": false,
+        "is_scam": false,
+        "is_fake": false,
+        "title": "NM Leaked Movies",
+        "photo": {
+            "_": "ChatPhoto",
+            "small_file_id": "AQADBQAD3rMxGzCwoFcAEAIAA4LrfMcW____LwH8fKceKq0ABB4E",
+            "small_photo_unique_id": "AgAD3rMxGzCwoFc",
+            "big_file_id": "AQADBQAD3rMxGzCwoFcAEAMAA4LrfMcW____LwH8fKceKq0ABB4E",
+            "big_photo_unique_id": "AgAD3rMxGzCwoFc"
+        },
+        "dc_id": 5,
+        "has_protected_content": false
+    },
+    "forward_from_message_id": 172,
+    "forward_date": "2022-05-06 11:39:05",
+    "mentioned": false,
+    "scheduled": false,
+    "from_scheduled": false,
+    "media": "MessageMediaType.DOCUMENT",
+    "has_protected_content": false,
+    "caption_entities": [
+        {
+            "_": "MessageEntity",
+            "type": "MessageEntityType.BOLD",
+            "offset": 0,
+            "length": 34
+        },
+        {
+            "_": "MessageEntity",
+            "type": "MessageEntityType.MENTION",
+            "offset": 46,
+            "length": 9
+        },
+        {
+            "_": "MessageEntity",
+            "type": "MessageEntityType.MENTION",
+            "offset": 70,
+            "length": 9
+        },
+        {
+            "_": "MessageEntity",
+            "type": "MessageEntityType.MENTION",
+            "offset": 94,
+            "length": 12
+        }
+    ],
+    "document": {
+        "_": "Document",
+        "file_id": "BQACAgEAAx0EZZsF-wACAy5idhDZddNgNF-WhcNCLHaHHY91tgACzwIAAqX-qEcS2r38XrRGbR4E",
+        "file_unique_id": "AgADzwIAAqX-qEc",
+        "file_name": "[NM] RRR (2022) Tamil HQ HDRip.mkv",
+        "mime_type": "video/x-matroska",
+        "file_size": 1834339891,
+        "date": "2022-05-06 09:04:32",
+        "thumbs": [
+            {
+                "_": "Thumbnail",
+                "file_id": "AAMCAQADHQRlmwX7AAIDLmJ2ENl102A0X5aFw0Isdocdj3W2AALPAgACpf6oRxLavfxetEZtAAgBAAdtAAceBA",
+                "file_unique_id": "AgADzwIAAqX-qEc",
+                "width": 320,
+                "height": 320,
+                "file_size": 39332
+            }
+        ]
+    },
+    "caption": "[NM] RRR (2022) Tamil HQ HDRip\n\n➠➠➠ ᴄʜᴀɴɴᴇʟ : @Links_NM\n➠➠➠ ᴄʜᴀɴɴᴇʟ : @NM_Chats\n➠➠➠ ᴄʜᴀɴɴᴇʟ : @NM_Archives",
+    "views": 2143,
+    "outgoing": true
+}
