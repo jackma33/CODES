@@ -1,0 +1,155 @@
+<!-- ### -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .loadersmall {
+            border: 5px solid #c70909;
+            -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+            border-top: 5px solid rgb(153, 146, 146);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Normal Loader</h2>
+
+
+    <div class="w3-half">
+        <div class="loadersmall"></div>
+    </div>
+
+</body><br>
+
+</html>
+
+<!-- ### -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style type="text/css">
+        .loader {
+            border: 16px solid #ffffff;
+            /* Light grey */
+            border-top: 16px solid #acce5c;
+            /* Dark Green */
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spinloader 1s linear infinite;
+        }
+
+        .loader img {
+            height: 120px;
+            width: 120px;
+            animation: spinlogo 1s linear infinite;
+        }
+
+        @keyframes spinloader {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spinlogo {
+            0% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Loader with Logo inside</h2>
+    <div class="loader">
+        <img
+            src="https://o.remove.bg/downloads/f0433b32-066b-4b59-abb1-9511e888b041/android-logo-200x200-removebg-preview.png" />
+    </div>
+</body><br>
+
+</html>
+
+<!-- ### -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .cfloader {
+            border: 16px solid #000000;
+            border-radius: 50%;
+            border-top: 16px solid rgb(0, 0, 0);
+            border-right: 16px solid rgb(255, 0, 0);
+            border-bottom: 16px solid rgb(0, 0, 0);
+            border-left: 16px solid rgb(255, 0, 0);
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 1s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>The 4 Color COMBO</h2>
+
+    <div class="cfloader"></div>
+
+</body><br>
+
+</html>
+
+<!-- ### -->
+
