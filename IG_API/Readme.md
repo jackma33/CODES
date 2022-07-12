@@ -1,0 +1,1 @@
+https://adw0rd.github.io/instagrapi/
